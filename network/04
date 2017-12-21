@@ -1,0 +1,1 @@
+netstat -rn | grep -m1 default | awk '{print }'
